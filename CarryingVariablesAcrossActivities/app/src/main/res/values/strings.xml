@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CarryingVariablesAcrossActivities</string>
+    <string name="title_activity_the_second">TheSecond</string>
+</resources>

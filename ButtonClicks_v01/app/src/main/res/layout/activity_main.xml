@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="org.palmdigital.buttonclicks_v01.MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:text="Enter your first name:"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:id="@+id/textView" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="10dp"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/firstName"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:text="Get Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/getName"
+        android:onClick="getName"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameOutput" />
+
+    <Button
+        android:text="The Button. King of Buttons. His Buttoness."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/king"
+        android:onClick="buttoness"/>
+
+    <Button
+        android:text="A soldier of the glorious button kingdom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/soldier"
+        android:onClick="glorious"/>
+</LinearLayout>

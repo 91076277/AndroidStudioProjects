@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.palmdigital.calculator.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstNumOutput"
+        android:textSize="50sp"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <ImageView
+            android:layout_width="130dip"
+            android:layout_height="50px"
+            app:srcCompat="@drawable/number_zero"
+            android:id="@+id/num10"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="130dip"
+            android:layout_height="50px"
+            app:srcCompat="@drawable/number_one"
+            android:id="@+id/num11"
+            android:layout_weight="1" />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50px"
+                app:srcCompat="@drawable/number_two"
+                android:id="@+id/num12"
+                android:layout_weight="1" />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50px"
+                app:srcCompat="@drawable/number_three"
+                android:id="@+id/num13"
+                android:layout_weight="1" />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50px"
+                app:srcCompat="@drawable/number_four"
+                android:id="@+id/num14"
+                android:layout_weight="1" />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50px"
+                app:srcCompat="@drawable/number_five"
+                android:id="@+id/num15"
+                android:layout_weight="1" />
+
+        <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50px"
+                    app:srcCompat="@drawable/number_six"
+                    android:id="@+id/num16"
+            android:layout_weight="1" />
+
+        <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="50px"
+                        app:srcCompat="@drawable/number_seven"
+                        android:id="@+id/num17"
+                android:layout_weight="1" />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50px"
+                app:srcCompat="@drawable/number_eight"
+                android:id="@+id/num18"
+            android:layout_weight="1" />
+
+        <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50px"
+                    app:srcCompat="@drawable/number_nine"
+                    android:id="@+id/num19"
+                android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50px"
+            app:srcCompat="@drawable/decimalpoint"
+            android:id="@+id/decimalPoint"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="57dp">
+
+        <ImageView
+            android:layout_width="200dip"
+            android:layout_height="50px"
+            app:srcCompat="@drawable/two_digits"
+            android:id="@+id/clear"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="200dip"
+            android:layout_height="50px"
+            app:srcCompat="@drawable/add"
+            android:id="@+id/addition"
+            android:layout_weight="1" />
+
+        <ImageView
+                android:layout_width="200dip"
+                android:layout_height="50px"
+                app:srcCompat="@drawable/division"
+                android:id="@+id/division"
+                android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="200dip"
+            android:layout_height="50px"
+            app:srcCompat="@drawable/subtract"
+            android:id="@+id/subtract"
+            android:layout_weight="1" />
+
+        <ImageView
+                        android:layout_width="200dip"
+                        android:layout_height="50px"
+                        app:srcCompat="@drawable/multiplication"
+                        android:id="@+id/multiplication"
+                         android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/secondNumOutput"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:layout_weight="0.00" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_weight="0.00">
+
+        <ImageView
+            android:layout_width="130dip"
+            android:layout_height="50px"
+            app:srcCompat="@drawable/number_zero"
+            android:id="@+id/num20"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="130dip"
+            android:layout_height="50px"
+            app:srcCompat="@drawable/number_one"
+            android:id="@+id/num21"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="130dip"
+            android:layout_height="50px"
+            app:srcCompat="@drawable/number_two"
+            android:id="@+id/num22"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="130dip"
+            android:layout_height="50px"
+            app:srcCompat="@drawable/number_three"
+            android:id="@+id/num23"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="130dip"
+            android:layout_height="50px"
+            app:srcCompat="@drawable/number_four"
+            android:id="@+id/num24"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="130dip"
+            android:layout_height="50px"
+            app:srcCompat="@drawable/number_five"
+            android:id="@+id/num25"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="130dip"
+            android:layout_height="50px"
+            app:srcCompat="@drawable/number_six"
+            android:id="@+id/num26"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50px"
+            app:srcCompat="@drawable/number_seven"
+            android:id="@+id/num27"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="130dip"
+            android:layout_height="50px"
+            app:srcCompat="@drawable/number_eight"
+            android:id="@+id/num28"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="130dip"
+            android:layout_height="50px"
+            app:srcCompat="@drawable/number_nine"
+            android:id="@+id/num29"
+            android:layout_weight="1" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="50px"
+            app:srcCompat="@drawable/decimalpoint"
+            android:id="@+id/decimalPoint2"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <ImageView
+                android:layout_width="74dp"
+                android:layout_height="63dp"
+                app:srcCompat="@drawable/equals"
+                android:id="@+id/equals" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/finalOutput"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:layout_weight="0.00"/>
+</LinearLayout>
